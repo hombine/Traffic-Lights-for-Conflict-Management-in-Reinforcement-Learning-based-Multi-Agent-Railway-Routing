@@ -1,0 +1,78 @@
+{
+  "max_traffic_lights_requested": 3,
+  "num_traffic_lights_returned": 3,
+  "bottlenecks": {
+    "light_1": {
+      "cells": [
+        [
+          14,
+          68
+        ],
+        [
+          14,
+          69
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          14,
+          67
+        ],
+        "after": [
+          14,
+          70
+        ]
+      },
+      "reason": "High-traffic bottleneck near row 14, col 69 with extremely high blocked step count.",
+      "confidence": "high"
+    },
+    "light_2": {
+      "cells": [
+        [
+          86,
+          73
+        ],
+        [
+          86,
+          74
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          86,
+          72
+        ],
+        "after": [
+          86,
+          75
+        ]
+      },
+      "reason": "Critical bottleneck at row 86, col 74 covering a major hotspot cluster.",
+      "confidence": "high"
+    },
+    "light_3": {
+      "cells": [
+        [
+          66,
+          48
+        ],
+        [
+          66,
+          49
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          66,
+          47
+        ],
+        "after": [
+          66,
+          50
+        ]
+      },
+      "reason": "Bottleneck at row 66, col 48 managing a significant hotspot cluster.",
+      "confidence": "high"
+    }
+  }
+}

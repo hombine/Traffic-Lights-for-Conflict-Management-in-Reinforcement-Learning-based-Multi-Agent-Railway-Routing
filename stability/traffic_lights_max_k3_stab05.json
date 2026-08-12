@@ -1,0 +1,86 @@
+{
+  "max_traffic_lights_requested": 3,
+  "num_traffic_lights_returned": 3,
+  "bottlenecks": {
+    "light_1": {
+      "cells": [
+        [
+          83,
+          60
+        ],
+        [
+          84,
+          60
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          82,
+          60
+        ],
+        "after": [
+          85,
+          60
+        ]
+      },
+      "reason": "High congestion hotspot cluster on vertical segment",
+      "confidence": "high"
+    },
+    "light_2": {
+      "cells": [
+        [
+          51,
+          60
+        ],
+        [
+          51,
+          61
+        ],
+        [
+          51,
+          62
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          51,
+          59
+        ],
+        "after": [
+          51,
+          63
+        ]
+      },
+      "reason": "Major horizontal corridor with high blocked step counts",
+      "confidence": "high"
+    },
+    "light_3": {
+      "cells": [
+        [
+          76,
+          51
+        ],
+        [
+          77,
+          51
+        ],
+        [
+          78,
+          51
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          75,
+          51
+        ],
+        "after": [
+          79,
+          51
+        ]
+      },
+      "reason": "Vertical bottleneck segment with high congestion",
+      "confidence": "high"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "max_traffic_lights_requested": 3,
+  "num_traffic_lights_returned": 3,
+  "bottlenecks": {
+    "light_1": {
+      "cells": [
+        [
+          83,
+          60
+        ],
+        [
+          84,
+          60
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          82,
+          60
+        ],
+        "after": [
+          85,
+          60
+        ]
+      },
+      "reason": "High conflict vertical segment near row 83-84, col 60.",
+      "confidence": "high"
+    },
+    "light_2": {
+      "cells": [
+        [
+          51,
+          60
+        ],
+        [
+          51,
+          61
+        ],
+        [
+          51,
+          62
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          51,
+          59
+        ],
+        "after": [
+          51,
+          63
+        ]
+      },
+      "reason": "Extremely busy horizontal corridor at row 51.",
+      "confidence": "high"
+    },
+    "light_3": {
+      "cells": [
+        [
+          77,
+          51
+        ],
+        [
+          78,
+          51
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          76,
+          51
+        ],
+        "after": [
+          79,
+          51
+        ]
+      },
+      "reason": "Active vertical bottleneck at col 51, rows 77-78.",
+      "confidence": "high"
+    }
+  }
+}

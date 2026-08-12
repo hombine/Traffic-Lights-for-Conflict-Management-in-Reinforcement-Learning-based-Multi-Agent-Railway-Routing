@@ -1,0 +1,78 @@
+{
+  "max_traffic_lights_requested": 3,
+  "num_traffic_lights_returned": 3,
+  "bottlenecks": {
+    "light_1": {
+      "cells": [
+        [
+          14,
+          68
+        ],
+        [
+          14,
+          69
+        ],
+        [
+          14,
+          70
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          14,
+          67
+        ],
+        "after": [
+          14,
+          71
+        ]
+      },
+      "reason": "High-density conflict zone on a single-track segment with over 64k blocked steps.",
+      "confidence": "high"
+    },
+    "light_2": {
+      "cells": [
+        [
+          86,
+          74
+        ],
+        [
+          86,
+          75
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          86,
+          73
+        ],
+        "after": [
+          86,
+          76
+        ]
+      },
+      "reason": "Protects a major junction area near row 86 with high blocked step counts.",
+      "confidence": "high"
+    },
+    "light_3": {
+      "cells": [
+        [
+          66,
+          48
+        ]
+      ],
+      "entry_cells": {
+        "before": [
+          66,
+          47
+        ],
+        "after": [
+          66,
+          49
+        ]
+      },
+      "reason": "Controls a critical single-track link between two active junctions on row 66.",
+      "confidence": "high"
+    }
+  }
+}
